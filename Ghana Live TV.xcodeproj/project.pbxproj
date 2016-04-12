@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CC26631CBCC97800034CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC26621CBCC97800034CE7 /* AppDelegate.swift */; };
+		18CC26651CBCC97800034CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC26641CBCC97800034CE7 /* ViewController.swift */; };
+		18CC26681CBCC97800034CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC26661CBCC97800034CE7 /* Main.storyboard */; };
+		18CC266B1CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CC26691CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodeld */; };
+		18CC266D1CBCC97800034CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC266C1CBCC97800034CE7 /* Assets.xcassets */; };
+		18CC26701CBCC97800034CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC266E1CBCC97800034CE7 /* LaunchScreen.storyboard */; };
+		18CC267B1CBCC97800034CE7 /* Ghana_Live_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC267A1CBCC97800034CE7 /* Ghana_Live_TVTests.swift */; };
+		18CC26861CBCC97800034CE7 /* Ghana_Live_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC26851CBCC97800034CE7 /* Ghana_Live_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CC26771CBCC97800034CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CC26571CBCC97800034CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CC265E1CBCC97800034CE7;
+			remoteInfo = "Ghana Live TV";
+		};
+		18CC26821CBCC97800034CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CC26571CBCC97800034CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CC265E1CBCC97800034CE7;
+			remoteInfo = "Ghana Live TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CC265F1CBCC97800034CE7 /* Ghana Live TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghana Live TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CC26621CBCC97800034CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CC26641CBCC97800034CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CC26671CBCC97800034CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CC266A1CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ghana_Live_TV.xcdatamodel; sourceTree = "<group>"; };
+		18CC266C1CBCC97800034CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CC266F1CBCC97800034CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CC26711CBCC97800034CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC26761CBCC97800034CE7 /* Ghana Live TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghana Live TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CC267A1CBCC97800034CE7 /* Ghana_Live_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghana_Live_TVTests.swift; sourceTree = "<group>"; };
+		18CC267C1CBCC97800034CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC26811CBCC97800034CE7 /* Ghana Live TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghana Live TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CC26851CBCC97800034CE7 /* Ghana_Live_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghana_Live_TVUITests.swift; sourceTree = "<group>"; };
+		18CC26871CBCC97800034CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CC265C1CBCC97800034CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC26731CBCC97800034CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC267E1CBCC97800034CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CC26561CBCC97800034CE7 = {
+			isa = PBXGroup;
+			children = (
+				18CC26611CBCC97800034CE7 /* Ghana Live TV */,
+				18CC26791CBCC97800034CE7 /* Ghana Live TVTests */,
+				18CC26841CBCC97800034CE7 /* Ghana Live TVUITests */,
+				18CC26601CBCC97800034CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CC26601CBCC97800034CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CC265F1CBCC97800034CE7 /* Ghana Live TV.app */,
+				18CC26761CBCC97800034CE7 /* Ghana Live TVTests.xctest */,
+				18CC26811CBCC97800034CE7 /* Ghana Live TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CC26611CBCC97800034CE7 /* Ghana Live TV */ = {
+			isa = PBXGroup;
+			children = (
+				18CC26621CBCC97800034CE7 /* AppDelegate.swift */,
+				18CC26641CBCC97800034CE7 /* ViewController.swift */,
+				18CC26661CBCC97800034CE7 /* Main.storyboard */,
+				18CC266C1CBCC97800034CE7 /* Assets.xcassets */,
+				18CC266E1CBCC97800034CE7 /* LaunchScreen.storyboard */,
+				18CC26711CBCC97800034CE7 /* Info.plist */,
+				18CC26691CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodeld */,
+			);
+			path = "Ghana Live TV";
+			sourceTree = "<group>";
+		};
+		18CC26791CBCC97800034CE7 /* Ghana Live TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CC267A1CBCC97800034CE7 /* Ghana_Live_TVTests.swift */,
+				18CC267C1CBCC97800034CE7 /* Info.plist */,
+			);
+			path = "Ghana Live TVTests";
+			sourceTree = "<group>";
+		};
+		18CC26841CBCC97800034CE7 /* Ghana Live TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CC26851CBCC97800034CE7 /* Ghana_Live_TVUITests.swift */,
+				18CC26871CBCC97800034CE7 /* Info.plist */,
+			);
+			path = "Ghana Live TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CC265E1CBCC97800034CE7 /* Ghana Live TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CC268A1CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TV" */;
+			buildPhases = (
+				18CC265B1CBCC97800034CE7 /* Sources */,
+				18CC265C1CBCC97800034CE7 /* Frameworks */,
+				18CC265D1CBCC97800034CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghana Live TV";
+			productName = "Ghana Live TV";
+			productReference = 18CC265F1CBCC97800034CE7 /* Ghana Live TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CC26751CBCC97800034CE7 /* Ghana Live TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CC268D1CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TVTests" */;
+			buildPhases = (
+				18CC26721CBCC97800034CE7 /* Sources */,
+				18CC26731CBCC97800034CE7 /* Frameworks */,
+				18CC26741CBCC97800034CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CC26781CBCC97800034CE7 /* PBXTargetDependency */,
+			);
+			name = "Ghana Live TVTests";
+			productName = "Ghana Live TVTests";
+			productReference = 18CC26761CBCC97800034CE7 /* Ghana Live TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CC26801CBCC97800034CE7 /* Ghana Live TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CC26901CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TVUITests" */;
+			buildPhases = (
+				18CC267D1CBCC97800034CE7 /* Sources */,
+				18CC267E1CBCC97800034CE7 /* Frameworks */,
+				18CC267F1CBCC97800034CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CC26831CBCC97800034CE7 /* PBXTargetDependency */,
+			);
+			name = "Ghana Live TVUITests";
+			productName = "Ghana Live TVUITests";
+			productReference = 18CC26811CBCC97800034CE7 /* Ghana Live TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CC26571CBCC97800034CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abid Ali";
+				TargetAttributes = {
+					18CC265E1CBCC97800034CE7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					18CC26751CBCC97800034CE7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18CC265E1CBCC97800034CE7;
+					};
+					18CC26801CBCC97800034CE7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18CC265E1CBCC97800034CE7;
+					};
+				};
+			};
+			buildConfigurationList = 18CC265A1CBCC97800034CE7 /* Build configuration list for PBXProject "Ghana Live TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CC26561CBCC97800034CE7;
+			productRefGroup = 18CC26601CBCC97800034CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CC265E1CBCC97800034CE7 /* Ghana Live TV */,
+				18CC26751CBCC97800034CE7 /* Ghana Live TVTests */,
+				18CC26801CBCC97800034CE7 /* Ghana Live TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CC265D1CBCC97800034CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC26701CBCC97800034CE7 /* LaunchScreen.storyboard in Resources */,
+				18CC266D1CBCC97800034CE7 /* Assets.xcassets in Resources */,
+				18CC26681CBCC97800034CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC26741CBCC97800034CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC267F1CBCC97800034CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CC265B1CBCC97800034CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC266B1CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodeld in Sources */,
+				18CC26651CBCC97800034CE7 /* ViewController.swift in Sources */,
+				18CC26631CBCC97800034CE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC26721CBCC97800034CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC267B1CBCC97800034CE7 /* Ghana_Live_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CC267D1CBCC97800034CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC26861CBCC97800034CE7 /* Ghana_Live_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CC26781CBCC97800034CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CC265E1CBCC97800034CE7 /* Ghana Live TV */;
+			targetProxy = 18CC26771CBCC97800034CE7 /* PBXContainerItemProxy */;
+		};
+		18CC26831CBCC97800034CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CC265E1CBCC97800034CE7 /* Ghana Live TV */;
+			targetProxy = 18CC26821CBCC97800034CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CC26661CBCC97800034CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CC26671CBCC97800034CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CC266E1CBCC97800034CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CC266F1CBCC97800034CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CC26881CBCC97800034CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CC26891CBCC97800034CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CC268B1CBCC97800034CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghana Live TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CC268C1CBCC97800034CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghana Live TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CC268E1CBCC97800034CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ghana Live TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghana Live TV.app/Ghana Live TV";
+			};
+			name = Debug;
+		};
+		18CC268F1CBCC97800034CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ghana Live TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghana Live TV.app/Ghana Live TV";
+			};
+			name = Release;
+		};
+		18CC26911CBCC97800034CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ghana Live TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ghana Live TV";
+			};
+			name = Debug;
+		};
+		18CC26921CBCC97800034CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ghana Live TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abid.GhanaLiveTV.Ghana-Live-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ghana Live TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CC265A1CBCC97800034CE7 /* Build configuration list for PBXProject "Ghana Live TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CC26881CBCC97800034CE7 /* Debug */,
+				18CC26891CBCC97800034CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CC268A1CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CC268B1CBCC97800034CE7 /* Debug */,
+				18CC268C1CBCC97800034CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CC268D1CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CC268E1CBCC97800034CE7 /* Debug */,
+				18CC268F1CBCC97800034CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CC26901CBCC97800034CE7 /* Build configuration list for PBXNativeTarget "Ghana Live TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CC26911CBCC97800034CE7 /* Debug */,
+				18CC26921CBCC97800034CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CC26691CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CC266A1CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodel */,
+			);
+			currentVersion = 18CC266A1CBCC97800034CE7 /* Ghana_Live_TV.xcdatamodel */;
+			path = Ghana_Live_TV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CC26571CBCC97800034CE7 /* Project object */;
+}
